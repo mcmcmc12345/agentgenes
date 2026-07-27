@@ -1,163 +1,443 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#0B1120] to-black text-white">
+    <main className="min-h-screen bg-[#050816] text-white overflow-x-hidden">
 
-      {/* HERO */}
-      <section className="max-w-6xl mx-auto px-6 py-28 text-center">
+      {/* ================= HERO ================= */}
 
-        <div className="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-cyan-300 text-sm mb-8">
-          Premium .AI Domain Available
-        </div>
+      <section className="relative">
 
-        <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight">
-          AgentGenes
-          <span className="text-cyan-400">.ai</span>
-        </h1>
+        {/* Background */}
 
-        <p className="mt-8 text-2xl md:text-3xl text-gray-200 font-light">
-          The DNA of Agentic AI
-        </p>
+        <div className="absolute inset-0 overflow-hidden">
 
-        <p className="mt-8 max-w-3xl mx-auto text-lg text-gray-400 leading-8">
-          A premium brand for the next generation of AI Agents,
-          Autonomous Systems, AI Infrastructure and Enterprise AI.
-        </p>
+          <div className="absolute left-1/2 top-24 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/20 blur-[140px]" />
 
-        <div className="mt-12 flex flex-wrap justify-center gap-5">
+          <div className="absolute right-10 top-80 h-[350px] w-[350px] rounded-full bg-violet-600/20 blur-[140px]" />
 
-          <a
-            href="#contact"
-            className="rounded-full bg-cyan-500 px-8 py-4 font-semibold text-black hover:bg-cyan-400 transition"
-          >
-            Make an Offer
-          </a>
-
-          <a
-            href="mailto:mciemiecki@gmail.com"
-            className="rounded-full border border-gray-700 px-8 py-4 hover:border-cyan-400 hover:text-cyan-300 transition"
-          >
-            Contact Owner
-          </a>
+          <div className="absolute left-0 bottom-0 h-[250px] w-[250px] rounded-full bg-blue-500/10 blur-[120px]" />
 
         </div>
 
-      </section>
+        <div className="relative mx-auto max-w-7xl px-6 py-28">
 
-      {/* WHY */}
+          <div className="text-center">
 
-      <section className="max-w-6xl mx-auto px-6 py-20">
+            <div className="inline-flex items-center rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-2 text-sm tracking-wider text-cyan-300">
 
-        <h2 className="text-4xl font-bold text-center">
-          Why AgentGenes.ai?
-        </h2>
+              PREMIUM .AI DOMAIN AVAILABLE
 
-        <div className="grid md:grid-cols-3 gap-8 mt-14">
-
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-            <div className="text-4xl">🧬</div>
-            <h3 className="mt-5 text-2xl font-semibold">
-              Memorable Brand
-            </h3>
-            <p className="mt-4 text-gray-400">
-              Short, unique and instantly connected with AI, DNA and intelligent systems.
-            </p>
-          </div>
-
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-            <div className="text-4xl">🤖</div>
-            <h3 className="mt-5 text-2xl font-semibold">
-              Built for Agentic AI
-            </h3>
-            <p className="mt-4 text-gray-400">
-              Perfect for AI agents, orchestration platforms, autonomous systems and developer tools.
-            </p>
-          </div>
-
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-            <div className="text-4xl">🚀</div>
-            <h3 className="mt-5 text-2xl font-semibold">
-              Premium .AI
-            </h3>
-            <p className="mt-4 text-gray-400">
-              An investment-grade domain for ambitious AI startups and technology companies.
-            </p>
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* USE CASES */}
-
-      <section className="max-w-6xl mx-auto px-6 py-20">
-
-        <h2 className="text-4xl font-bold text-center">
-          Ideal For
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
-
-          {[
-            "AI Agents",
-            "Agent Frameworks",
-            "Enterprise AI",
-            "AI Infrastructure",
-            "Developer Platforms",
-            "Multi-Agent Systems"
-          ].map((item) => (
-            <div
-              key={item}
-              className="rounded-2xl border border-gray-800 bg-white/5 p-6 text-center text-lg hover:border-cyan-400 transition"
-            >
-              {item}
             </div>
-          ))}
+
+            <h1 className="mt-10 text-6xl font-black tracking-tight md:text-8xl">
+
+              AgentGenes
+
+              <span className="text-cyan-400">.ai</span>
+
+            </h1>
+
+            <h2 className="mt-8 text-2xl md:text-4xl font-light text-gray-200">
+
+              The DNA of Agentic AI
+
+            </h2>
+
+            <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-400">
+
+              AgentGenes.ai is a premium, memorable and future-ready
+              AI brand built for founders creating autonomous systems,
+              AI agents, enterprise AI platforms and next-generation
+              intelligent software.
+
+            </p>
+
+            <div className="mt-14 flex flex-wrap justify-center gap-5">
+
+              <a
+                href="#contact"
+                className="rounded-full bg-cyan-400 px-9 py-4 font-semibold text-black transition duration-300 hover:scale-105 hover:bg-cyan-300"
+              >
+                Acquire Domain
+              </a>
+
+              <a
+                href="mailto:mciemiecki@gmail.com"
+                className="rounded-full border border-white/20 px-9 py-4 transition duration-300 hover:border-cyan-400 hover:text-cyan-300"
+              >
+                Contact Owner
+              </a>
+
+            </div>
+
+          </div>
 
         </div>
 
       </section>
 
-      {/* CONTACT */}
+      {/* ================= WHY ================= */}
+
+      <section className="mx-auto mt-16 max-w-7xl px-6 pb-28">
+
+        <div className="text-center">
+
+          <h2 className="text-4xl font-bold">
+
+            Why AgentGenes.ai?
+
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-400">
+
+            A premium AI domain designed for startups,
+            enterprise platforms and ambitious founders
+            building the future of artificial intelligence.
+
+          </p>
+
+        </div>
+
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
+
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur">
+
+            <div className="text-5xl">
+
+              🧬
+
+            </div>
+
+            <h3 className="mt-6 text-2xl font-semibold">
+
+              Memorable Brand
+
+            </h3>
+
+            <p className="mt-5 leading-8 text-gray-400">
+
+              "Genes" naturally evokes DNA,
+              evolution, intelligence and building blocks—
+              a compelling identity for AI companies.
+
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur">
+
+            <div className="text-5xl">
+
+              🤖
+
+            </div>
+
+            <h3 className="mt-6 text-2xl font-semibold">
+
+              Built for AI
+
+            </h3>
+
+            <p className="mt-5 leading-8 text-gray-400">
+
+              Perfect for AI agents,
+              multi-agent systems,
+              enterprise AI,
+              developer tools,
+              infrastructure
+              and orchestration platforms.
+
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur">
+
+            <div className="text-5xl">
+
+              🚀
+
+            </div>
+
+            <h3 className="mt-6 text-2xl font-semibold">
+
+              Premium .AI
+
+            </h3>
+
+            <p className="mt-5 leading-8 text-gray-400">
+
+              Short.
+              Brandable.
+              Global.
+
+              A name capable of becoming
+              a valuable technology brand.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+            {/* ================= PERFECT FOR ================= */}
+
+      <section className="border-y border-white/10 bg-white/[0.02] py-28">
+
+        <div className="mx-auto max-w-7xl px-6">
+
+          <div className="text-center">
+
+            <h2 className="text-4xl font-bold">
+              Perfect For
+            </h2>
+
+            <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-400">
+              AgentGenes.ai naturally fits companies building the next
+              generation of intelligent software.
+            </p>
+
+          </div>
+
+          <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+            {[
+              "🤖 AI Agents",
+              "🧠 Multi-Agent Systems",
+              "⚡ AI Infrastructure",
+              "☁ Enterprise AI",
+              "🧬 AI Frameworks",
+              "🔗 Developer Platforms"
+            ].map((item) => (
+
+              <div
+                key={item}
+                className="rounded-2xl border border-white/10 bg-white/5 p-8 transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:bg-cyan-500/5"
+              >
+
+                <h3 className="text-xl font-semibold">
+                  {item}
+                </h3>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* ================= BRAND POTENTIAL ================= */}
+
+      <section className="mx-auto max-w-7xl px-6 py-28">
+
+        <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
+
+          <div>
+
+            <span className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-2 text-sm text-cyan-300">
+              Brand Potential
+            </span>
+
+            <h2 className="mt-8 text-5xl font-bold leading-tight">
+
+              More than a domain.
+              <br />
+              A future AI brand.
+
+            </h2>
+
+            <p className="mt-8 text-lg leading-8 text-gray-400">
+
+              Great brands tell a story.
+
+              "Genes" immediately communicates
+              DNA, intelligence, evolution,
+              foundations and growth.
+
+              Combined with "Agent",
+              it creates a memorable identity
+              for the emerging Agentic AI market.
+
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 p-10 backdrop-blur">
+
+            <h3 className="text-2xl font-bold">
+
+              Imagine building...
+
+            </h3>
+
+            <div className="mt-10 space-y-5">
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-5">
+                AgentGenes Cloud
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-5">
+                AgentGenes Studio
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-5">
+                AgentGenes SDK
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-5">
+                AgentGenes Enterprise
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-5">
+                AgentGenes Labs
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* ================= DOMAIN STATUS ================= */}
+
+      <section className="mx-auto max-w-7xl px-6 pb-28">
+
+        <div className="rounded-[36px] border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 via-transparent to-violet-500/10 p-12">
+
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+
+            <div>
+
+              <span className="rounded-full bg-green-500/20 px-4 py-2 text-green-300">
+
+                ● Available Today
+
+              </span>
+
+              <h2 className="mt-8 text-5xl font-bold">
+
+                Premium AI Domain
+
+              </h2>
+
+              <p className="mt-8 text-lg leading-8 text-gray-300">
+
+                AgentGenes.ai is currently available
+                for acquisition directly from the owner.
+
+                Serious inquiries are welcome.
+
+              </p>
+
+            </div>
+
+            <div className="grid gap-4">
+
+              {[
+                "✓ Premium .AI Domain",
+                "✓ Direct Owner",
+                "✓ Fast Secure Transfer",
+                "✓ Worldwide",
+                "✓ Brandable",
+                "✓ Serious Inquiries"
+              ].map((item) => (
+
+                <div
+                  key={item}
+                  className="rounded-xl border border-white/10 bg-black/20 p-5"
+                >
+
+                  {item}
+
+                </div>
+
+              ))}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+            {/* ================= CONTACT ================= */}
 
       <section
         id="contact"
-        className="max-w-5xl mx-auto px-6 py-24"
+        className="mx-auto max-w-5xl px-6 pb-28"
       >
 
-        <div className="rounded-3xl border border-cyan-500/20 bg-cyan-500/5 p-12 text-center">
+        <div className="overflow-hidden rounded-[36px] border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 via-[#08101d] to-violet-500/10 p-12 text-center">
 
-          <h2 className="text-4xl font-bold">
-            Interested in acquiring AgentGenes.ai?
+          <div className="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-2 text-sm text-cyan-300">
+            AVAILABLE FOR ACQUISITION
+          </div>
+
+          <h2 className="mt-8 text-5xl font-bold">
+            Interested in AgentGenes.ai?
           </h2>
 
-          <p className="mt-6 text-gray-300 text-lg">
-            Serious inquiries are welcome.
+          <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-gray-300">
+            If you're building the next generation of AI agents,
+            enterprise AI or autonomous systems,
+            this domain could become the foundation of your brand.
           </p>
 
-          <div className="mt-10">
+          <div className="mt-12">
 
             <a
-              href="mailto:YOUR_EMAIL"
-              className="rounded-full bg-cyan-500 px-10 py-4 text-black font-bold hover:bg-cyan-400 transition"
+              href="mailto:mciemiecki@gmail.com?subject=AgentGenes.ai%20Inquiry"
+              className="inline-flex rounded-full bg-cyan-400 px-10 py-5 text-lg font-bold text-[#050816] transition duration-300 hover:scale-105 hover:bg-cyan-300"
             >
-              Contact the Owner
+              Contact Owner
             </a>
 
           </div>
 
-          <p className="mt-8 text-gray-500">
-            Fast and secure domain transfer.
-          </p>
+          <div className="mt-10 text-gray-400">
+
+            <p>
+              📧 mciemiecki@gmail.com
+            </p>
+
+            <p className="mt-3">
+              Direct owner · Secure transfer · Worldwide
+            </p>
+
+          </div>
 
         </div>
 
       </section>
 
-      {/* FOOTER */}
+      {/* ================= FOOTER ================= */}
 
-      <footer className="border-t border-white/10 py-10 text-center text-gray-500">
+      <footer className="border-t border-white/10">
 
-        © {new Date().getFullYear()} AgentGenes.ai
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 py-10 text-center text-sm text-gray-500 md:flex-row">
+
+          <div>
+
+            <span className="font-semibold text-gray-300">
+              AgentGenes.ai
+            </span>
+
+            {" "}· Premium AI Domain
+
+          </div>
+
+          <div>
+
+            © {new Date().getFullYear()} AgentGenes.ai
+
+          </div>
+
+        </div>
 
       </footer>
 

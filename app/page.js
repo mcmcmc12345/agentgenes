@@ -385,7 +385,7 @@ export default function Home() {
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-gray-300">
             If you're building the next generation of AI agents,
             enterprise AI or autonomous systems,
-            this domain could become the foundation of your brand.
+            this domain could become the foundation of your brand. Starting at USD 10,000. Serious inquiries only.
           </p>
 
           <div className="mt-12">
